@@ -1,0 +1,7 @@
+<configuration>
+    <system.webServer>
+        <handlers>
+            <add name="PythonFastCGI" path="*" verb="*" modules="FastCgiModule" scriptProcessor="  \python.exe|C:\Users\Administrator\AppData\Local\Programs\Python\Python312\myenv\Lib\site-packages\wfastcgi.py" resourceType="Unspecified" requireAccess="Script" />
+        </handlers>
+    </system.webServer>
+</configuration>

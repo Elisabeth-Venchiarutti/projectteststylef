@@ -1,0 +1,57 @@
+body {
+    font-family: 'Broadway', sans-serif;
+    background-color: #f8f9fa;
+    color: purple;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    width: 100%;
+    text-align: center;
+}
+
+.form-control {
+    font-size: 22px;
+    width: 300px;
+    font-family: 'Broadway', sans-serif;
+    color: purple;
+}
+
+.btn {
+    font-size: 26px;
+    font-family: 'Broadway', sans-serif;
+    background-color: purple;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: #5a5a5a;
+}
+
+
+.image-container img {
+    max-width: 75%;
+    height: auto;
+    margin-top: 50px;
+}
+
+.responsive {
+    max-width: 80%; /* Adjust this value to control the maximum width */
+    max-height: 70vh; /* Adjust this value to control the maximum height */
+    width: auto; /* Maintain aspect ratio */
+    height: auto; /* Maintain aspect ratio */
+    object-fit: contain; /* Ensures the aspect ratio is maintained */
+    margin-top: 50px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
