@@ -26,12 +26,12 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = 'django-insecure-*0s1!-9vr_ao1@+48227b1+_dp5olaip3o9(_)en3xw21=6mbw'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = False
+DEBUG = True
 
 
 # projectteststylef/settings.py
 
-ALLOWED_HOSTS = ['127.0.0.1', 'localhost', '192.168.1.133', '35.180.247.104']
+ALLOWED_HOSTS = ['127.0.0.1', 'localhost', '192.168.1.133', '35.180.247.104', '13.38.82.135']
 
 
 # Application definition
